@@ -33,3 +33,20 @@
 > - [x] #739
 > - [ ] https://github.com/octo-org/octo-repo/issues/740
 > - [ ] Add delight to the experience when all tasks are complete :tada:
+
+## Pull Request Reviewer Checklist
+> - [ ] Does the code work? Does it perform its intended function, the logic is correct etc.
+> - [ ] Is all the code easily understood?
+> - [ ] Does it have correct linting?
+> - [ ] Is there any redundant or duplicate code?
+> - [ ] Is the code as modular as possible?
+> - [ ] Can any global variables be replaced?
+> - [ ] Can any of the code be replaced with library functions?
+> - [ ] Can any logging or debugging code be removed?
+> - [ ] Does code follow defined architecture?
+> - [ ] Does feature implementation follow UAC and specified design?
+> - [ ] Ensure PR passes CI server, re-running once or twice if it fails. Failure could be due to other issues, so determine whether the PR is responsible if failure occurs.
+> - [ ] Request changes to the code and/or additional unit tests if any issues are found.
+> - [ ] Is any code invoking memory leaks?
+> - [ ] Are properties declared with the correct storage semantics? (e.g. weak or unowned instead of strong)
+> - [ ] Are good names used for classes, enum, struct , methods, and variables?
