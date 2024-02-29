@@ -39,6 +39,7 @@
 >> ### Comments
 
 ## Pull Request Reviewer{Name} Checklist 
+> - [ ] #3
 > - [ ] Does the code work? Does it perform its intended function, the logic is correct etc.
 > - [ ] Is all the code easily understood?
 > - [ ] Does it have correct linting?
