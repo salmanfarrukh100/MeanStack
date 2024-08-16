@@ -1,7 +1,7 @@
 
 console.log(`hello JS ES ${10*10}`);
 var hello = "salman farrukh"
-const hello2 = "yasir hameed"
+const hello2 = "yasir hameed me too"
 
 let hello3 = "usman farrukh"
 
