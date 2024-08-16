@@ -1,11 +1,12 @@
 name: Pull Request Stats
 
 on:
-  pull_request:
-    types: [opened]
+  pull_request_review:
+    types: [submitted]
 
 jobs:
   stats:
+    if: github.event.review.state == 'approved'
     runs-on: ubuntu-latest
     permissions:
       contents: read
