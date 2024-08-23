@@ -4,7 +4,7 @@ var hello = "salman farrukh"
 const hello2 = "yasir hameed bhai"
 
 let hello3 = "usman farrukh"
-
+let hello4 = "hello"
 function Calc(num1, num2)
 {
     return num1+num2;
