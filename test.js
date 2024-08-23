@@ -2,7 +2,7 @@
 console.log(`hello JS ES ${10*10}`);
 var hello = "salman farrukh"
 const hello2 = "yasir hameed bhai"
-
+var new1= "new"
 let hello3 = "usman farrukh"
 let hello4 = "hello"
 function Calc(num1, num2)
