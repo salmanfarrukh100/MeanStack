@@ -1,7 +1,7 @@
 name: PRMetrics
 on:
  pull_request:
-      types: [opened, synchronize, reopened]
+      types: [submitted]
 jobs:
   stats:
     runs-on: ubuntu-latest
