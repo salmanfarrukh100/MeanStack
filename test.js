@@ -8,7 +8,7 @@ let hello4 = "hellohjgfhjghj"no
 let yes = ""
 function Calc(num1, num2)
 {
-    return num1+num2;
+    return num1+num2+5;
 }
 
 const hello5 = (num1,num2)=> num1+num2; //es6 fat arrows
